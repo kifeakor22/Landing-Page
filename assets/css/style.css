@@ -1,3 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 li {
     display: inline;
+    padding: 0px 20px;
+}
+.text-right{
+    text-align: right;
+}
+header {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(172, 185, 243);
+    line-height: 60px;
+    position: fixed;
+}
+body{
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
 }
