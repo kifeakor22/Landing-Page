@@ -13,13 +13,19 @@ main {
     padding: 60px 0;
   }
 
-  footer,
   header {
     height: 50px;
     width: 100%;
     background-color: rgb(172, 185, 243);
     line-height: 60px;
     position: fixed;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(172, 185, 243);
+    line-height: 60px;
 }
 
 li {
@@ -38,4 +44,17 @@ img {
     display: block;
     margin: 10px auto;
   }
-  
+
+figcaption {
+    margin: 10px;
+}  
+ 
+  .contact {
+    margin: 0px auto;
+    width: 50%;
+    border: 5px solid rgb(113, 157, 184);
+  }
+
+  #form1 {
+    padding: 10px;
+  }
