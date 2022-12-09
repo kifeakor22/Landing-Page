@@ -1,8 +1,11 @@
+/* Universal Selector */
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
+/*  element selector */
 body{
     position: relative;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -32,6 +35,17 @@ li {
     display: inline;
     padding: 0px 20px;
 }
+img {
+  display: block;
+  margin: 10px auto;
+}
+
+figcaption {
+  margin: 10px;
+}  
+
+/* Class Selectors */
+
 .text-right{
     text-align: right;
 }
@@ -39,22 +53,13 @@ li {
 .text-center {
     text-align: center;
 }
-
-img {
-    display: block;
-    margin: 10px auto;
-  }
-
-figcaption {
-    margin: 10px;
-}  
  
-  .contact {
+.contact {
     margin: 0px auto;
     width: 50%;
     border: 5px solid rgb(113, 157, 184);
   }
-
-  #form1 {
+/* ID Selector */
+#form1 {
     padding: 10px;
   }
